@@ -33,4 +33,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Running Surge
-      run: surge ./build covid19-app.surge.sh --token ${{secrets.CN}}
+      run: surge ./build covid20-app.surge.sh --token ${{secrets.CN}}
